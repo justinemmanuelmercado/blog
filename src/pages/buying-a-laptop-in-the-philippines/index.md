@@ -1,5 +1,5 @@
 ---
-title: Buying my laptop from out of the country and general laptop buying guidelines
+title: Buying laptops from the outside the Philippines can save you money
 description: Why I think buying abroad and having it shipped is way better than buying in the country.
 date: '2019-01-22'
 image: 'cover.jpeg'
@@ -15,7 +15,7 @@ In this post you'll see I've written several paragraphs explaining why I chose w
 
 1. You get the latest models, the better models (equipped with more RAM or an SSD instead of an HDD) and the better variety buying from [eBay](https://www.ebay.com) and [Amazon](https://www.amazon.com)
 
-2. If buying secondhand or refurbished is your preferred option, nothing beats buying from [eBay](https://www.ebay.com) because, for one; you get more options by the sheer amount of sellers and users on ebay, and two they've got the [eBay money back guarantee](https://pages.ebay.com/ebay-money-back-guarantee/) which assures you that if you get scammed, or you didn't get the product described, there's a big chance you'll get your money back. Amazon also sells secondhand stuff but I much prefer prices on eBay.
+2. If buying secondhand or refurbished is your preferred option, nothing beats buying from [eBay](https://www.ebay.com) because, for one; you get more options by the sheer amount of sellers and users on ebay, and two they've got the [eBay money back guarantee](https://pages.ebay.com/ebay-money-back-guarantee/) which assures you that if you don't receive the product or if the product isn't as described, there's a big chance you'll get your money back at the cost of sending back the product though. Amazon also sells secondhand stuff but I much prefer prices on eBay.
 
 3. It gets delivered **straight** to your doorstep. No need to be hassled by customs or going to the post-office to pick up your package.
 
@@ -38,17 +38,52 @@ _You don't actually have to use ShippingCart there are other services available 
 
 1. [Create your account](https://www.shippingcart.com/signup), pretty straightforward.
 2. Once on your account's page, look for  this address box at the upper left of the page ![Sample Address Box](addr.png "US Shipping address") 
-   This is where your warehouse is located and where all of your ordered products should be shipped to and instead of a black box you should see your US address and a phone number
+   _This is where your warehouse is located and where all of your ordered products should be shipped to and instead of a black box you should see your US address and a phone number_
 3. Once you've got your address, it's time to order your laptop
 
 ### Deciding on what to buy, and what to look for
+##### You can skip this part if you've already decided
 
 1. Well first you have to decide what you're going to use the laptop for, and if you actually need a laptop (building a PC can be cheaper if you don't really need the mobility)
+
 2. For any laptop you buy, I urge you to buy one with an SSD. The difference between using HDDs and SSDs is night and day, I cannot stress enough how big the difference is.
+
 3. Things you need to look out for
     * Gaming: Get a laptop with a good GPU and decent processor. I highly recommend atleast a GTX 1050 to play most newer titles at low-medium settings while getting decent frames. As of writing this, Nvidia was about to release RTX 20XX graphics cards so watch out for those.
     * Content Creation: For most light content creation you'd probably do fine with more recent devices, but for special content like video or 3D rendering make sure to get a fast (at least) quad core processor and a decent graphics card (Both of which are reserved for the higher end of laptops. Sometimes a good gaming laptop can also be a good content creation one)
-    * Light use/Office work/Programming: Most devices released within the past 3 - 2 years will get by running multiple browser tabs and multiple instances of Microsoft Office and Microsoft Excel running as long as you have at least 8 GB of RAM. If you really want a snappy experience, get one with an SSD. The best choice for this type of work are ultrabooks. Ultrabooks are just extremely light laptops focused on sacrificing processing and graphics for portability and battery life (at least 8 hours of regular use). 
+    * Light use/Office work/Programming: Most devices released within the past 3 - 2 years will get by running multiple browser tabs and multiple instances of Microsoft Office and Microsoft Excel running as long as you have at least 8 GB of RAM. If you really want a snappy experience, get one with an SSD. The best choice for this type of work are ultrabooks. Ultrabooks are just extremely light laptops focused on sacrificing processing and graphics for portability and battery life (at least 8 hours of regular use).
+ 
+4. As for specific laptops, I can't really recommend a brand or model. There's tons of options and most of the time different brands will have a good line of products and a bad line of products, it's up to you to exercies your due diligence. If you need specific recommendations check Youtube, people post in-depth reviews of laptops on Youtube all the time.
+
+5. Once you find a laptop you want you'll probably want to search for "_Laptop Model_ problems" just to see the **possible** issues you **might** encounter. Keep in mind that most complaints are going to be from the small minority experiencing problems, and that 3/4ths of people who are not affected with their purchase will most likely not post at all. 
+
+### Ordering your new laptop
+
+For whatever laptop you end up choosing, you can't go wrong with either Amazon or eBay. EBay has the better second hand choices if you're okay with buying used, just make sure to check out the seller first, eBay shows the seller's score, percentage of positive reviews, and actual reviews from previous transactions. Amazon has the better prices for brand new though and better shipping times if you have Amazon Prime.
+
+So put in an order for your laptop, pay for it and then have it delivered to your ShippingCart warehouse (don't worry if the shipping indicates "requires signature" this just means that someone has to be at the location to pickup the package, and the warehouse will always have people to receive the package) and wait for it to arrive. Depending on where you bought it this could take anywhere from 2 - 7 days.
+
+Once your package arrives at the warehouse you'll receive an email saying that they have accepted your package and that it'll be processed before it appears in your shipping cart. This is where your package will be opened up, weighed, and reviewed.
+
+### Package is ready for shipping
+
+Once they're done processing your package, they'll send you an email and it should appear in your cart page.
+
+![ShippingCart Cart Page](cart.png "ShippingCart, Cart Page") _This is what is would look like if your cart is empty_
+
+Once there you're going to have to input the package value (for insurance purposes and items below $500 have free insurance and items over $500 will increase your shipping fee depending on how much the product is worth) The page should load for a bit, after that you can click the checkbox to calculate how much shipping will cost, unfortunately once it's in the warehouse there's nothing you can do to affect the shipping price. 
+
+From all the things I've bought, only one product costed over $100 to ship. A laptop that was, unfortunately by fault of the US courier, shipped with a box almost three times it's size and filled with filler paper to help cushion the laptop, though I appreciate the care they took in handling the laptop, it greatly bloated the actual shipping fee. Most other shipments (even two other laptops) costed about $20 - $80. Shipping multiple items together can save you some money compared to shipping the products one at a time and storing your products in the warehouse is free up to 30 days, a storage fee will be added 31 days - 90 days, and they'll dispose of your item after 90 days. 
+
+### Shipping your product
+
+Once you've finalized the items you want to ship, you can ship the products by clicking the ship button. You'll then be asked to fill in your address, and payment information. Fill in your payment information (PayPal or Credit Card) and then enter your **Philippine address**, once you've made sure it's all correct you can input add a promo code if for some reason you have one and click the final pay button.
+
+Your payment will be processed and you should be redirected to a thank you page. Once your payment has been accepted they will send you an email and by then you can check track your package by heading over to the shipments tab
+
+![Shipments Page](shipment.png "Shipments Page") _Here you'll see your package information. This is also the page where you can track shipments_
+
+When you see your package on the shipments page with a status of "On it's way" all that's left to do is to wait. Shipments usually arrive in 5 - 7 days and I've never had any problems for the 12 packages I've had delivered (fortunately) so I don't exactly have prior experience with their customer support. I've tried asking a question though through their little automated chat bubble thing and it's a bit useless. You should probably contact their customer support at [customercare@shippingcart.com](customercare@shippingcart.com) if you want human interaction.
 
 
-_Disclaimer: Use of information at own risk. I assume no responsibility in you getting scammed or getting a defective product. It is **YOUR** responsibility to evaluate whether the product or products you are buying are legitimate and functional. There is always a chance of buying a defective product or getting scammed no matter what you buy. The blog aims to outline my personal experiences and my personal takeaways from my experiences_
+_Disclaimer: Use of information at own risk. I assume no responsibility in you getting scammed or getting a defective product. It is **YOUR** responsibility to evaluate whether the product or products you are buying are functional and as advertised. There is always a chance of buying a defective product or wanting to return your order no matter what you buy. The blog aims to outline my personal experiences and my personal takeaways from my experiences_
