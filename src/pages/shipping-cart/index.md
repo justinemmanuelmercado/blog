@@ -1,5 +1,5 @@
 ---
-title: Buying laptops from the outside the Philippines can save you money
+title: ShippingCart Buying Guide
 description: Why I think buying abroad and having it shipped is way better than buying in the country.
 date: '2019-01-22'
 image: 'cover.jpeg'
