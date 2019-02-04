@@ -3,6 +3,7 @@ title: "Second Blog Post"
 description: "This post is related to tots"
 date: '2019-01-22'
 image: 1.jpeg
+active: 0
 ---
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry.

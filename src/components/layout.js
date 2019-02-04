@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
             <div
               style={{
                 margin: `0 auto`,
-                maxWidth: `700px`,
+                maxWidth: 1024,
                 padding: `0px 1.0875rem 1.45rem`,
                 paddingTop: 0,
               }}
@@ -38,7 +38,7 @@ const Layout = ({ children }) => (
             </div>
             <footer
               style={{
-                display:"flex",
+                display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
                 backgroundColor: "#333",
@@ -49,13 +49,12 @@ const Layout = ({ children }) => (
                 height: "2.5rem",
               }}
             >
-              <span>© {new Date().getFullYear()}, For questions and inquiries contact me{"  "}</span>
-              <a 
-              style={{
-                color: "#fff",
-                textDecoration: "none"
-              }}
-              href="mailto:ej@ejmercado.com">ej@ejmercado.com</a>
+              <span>© {new Date().getFullYear()}, <a
+                style={{
+                  color: "#fff",
+                  textDecoration: "none"
+                }}
+                href="mailto:ej@ejmercado.com">ej@ejmercado.com</a></span>
             </footer>
           </div>
         </div>

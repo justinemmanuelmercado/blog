@@ -1,8 +1,9 @@
 ---
-title: Laptops in the Philippines
+title: Buying a laptop in the Philippines? Use Ebay or Amazon!
 description: When is it right to ship a laptop from the US opposed to buying locally
-date: '2019-01-29'
-image: 'cover.jpeg'
+date: '2019-02-04'
+image: 'cover.jpg'
+active: 1
 ---
 
 When looking to purchase a new laptop, you'll be asking these 2 things a lot:
@@ -10,7 +11,7 @@ When looking to purchase a new laptop, you'll be asking these 2 things a lot:
 1. What are the specs?
 2. How much will this cost me?
 
-I'm not going to explain what most of the computer jargon on laptop specs sheet mean, you've got Google for that, but what this post can hopefully show you is that you can get the same (or even better) specs for a laptop for cheaper.
+I'm not going to explain what any of the computer jargon mean, you've can Google that, but what this post can hopefully show you is how you can get the best value out of your money when buying a laptop.
 
 ### Pricing and specs suck in the Philippines
 

@@ -3,6 +3,7 @@ title: ShippingCart Buying Guide
 description: Why I think buying abroad and having it shipped is way better than buying in the country.
 date: '2019-01-22'
 image: 'cover.jpeg'
+active: 0
 ---
 
 If you're anything like me, you're probably always looking for a good deal. Buying second-hand, never buying anything at full price, doing research beforehand just to make sure you're getting the best deal and would walk a few more meters just because the grocery store over there has the same ice cream for 3 pesos cheaper. 

@@ -3,28 +3,37 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Img from 'gatsby-image'
 
+const resetMargin = {
+  margin: `auto 0 0`
+};
+
 const IndexPage = (props) => {
   const postList = props.data.allMarkdownRemark;
   return (
     <Layout>
       {
         postList.edges.map(({ node }, i) => {
+
+          if(!node.frontmatter.active) {
+            return "";
+          };
+
           return (
             <div style={{
               marginBottom: `5rem`
             }}>
               <Link
+                className='blog-title link'
                 style={{
                   color: `#2b2b2b`,
                   textDecoration: `none`,
                   display: `flex`
                 }}
                 to={node.fields.slug}
-                key={node.fields.slug}
-                className="link">
+                key={node.fields.slug}>
                 <div style={{
-                  width: 130,
-                  height: 90,
+                  width: `auto`,
+                  height: `auto`,
                   marginRight: `0.5rem`
                 }}>
 
@@ -32,14 +41,15 @@ const IndexPage = (props) => {
                 </div>
                 <div style={{
                   height: `auto`,
-                  width: `auto`
+                  width: `auto`,
+                  ...resetMargin,
+                  marginBottom: `1.5rem`,
+                  marginLeft: `1rem`
                 }}
                 className="post-list">
                   <div>
-                    <h2 style={{
-                      margin: `0 auto`
-                    }}>{node.frontmatter.title}</h2>
-                    <p>{node.frontmatter.date}</p>
+                    <h2 style={{...resetMargin}}>{node.frontmatter.title}</h2>
+                    <small style={resetMargin}>{node.frontmatter.date}</small>
                   </div>
                 </div>
               </Link>
@@ -68,12 +78,13 @@ export const listQuery = graphql`
           }
           excerpt(pruneLength: 250)
           frontmatter {
+            active
             date(formatString: "MMMM Do YYYY")
             title
             description
             image {
               childImageSharp {
-                  fixed(width: 130, height: 90){
+                  fixed(width: 195, height: 135){
                       ...GatsbyImageSharpFixed
                   }
               }

@@ -5,23 +5,27 @@ import Logo from "./logo";
 const Header = ({ siteTitle }) => (
   <div
     style={{
+      display: `flex`,
+      alignItems: `center`,
       margin: `0 auto`,
       marginBottom: `1.45rem`,
-      maxWidth: `1200px`,
+      maxWidth: 1024,
       padding: `1.45rem 1.0875rem`,
     }}
   >
+    <div style={{
+      marginRight: `1rem`
+    }} >
 
-    <Link
-      to="/"
-      style={{
-        color: `#2b2b2b`,
-        textDecoration: `none`,
-      }}
-    >
       <Logo />
-
-    </Link>
+    </div>
+    <div>
+      <Link
+        style={{
+          color: `rgba(0,0,0,0.9)`
+        }}
+        to="/">Blog</Link>
+    </div>
   </div>
 )
 

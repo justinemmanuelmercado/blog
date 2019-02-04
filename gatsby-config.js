@@ -36,12 +36,12 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 960,
+              maxWidth: 1024,
             },
           },
           `gatsby-remark-prismjs`,
         ],
-      } 
+      }
     },
     `gatsby-plugin-offline`,
     {
@@ -50,6 +50,11 @@ module.exports = {
         path: `${__dirname}/src/pages`,
         name: "pages",
       },
-    },
+    }, {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      }
+    }
   ],
 }
