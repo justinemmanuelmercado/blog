@@ -13,9 +13,9 @@ When looking for a laptop, you've probably never considered using Amazon, Ebay o
 
 _The prices in dollars are from Amazon and Ebay, and the prices in pesos are from Philippine stores._ 
 
-What the picture above shows is that not only are the prices in US stores cheaper by $200 - $600, the products also have better specs out of the box (_see the Philippine Acer Aspire with only 4GB of RAM and the HDD where as a cheaper laptop on Amazon comes with an SSD and 8GB of RAM_)
+What the picture above shows is that not only are the prices in US stores cheaper by $200 - $600, the products also have better specs out of the box (_see the Philippine Acer Aspire with only 4GB of RAM and HDD where as the same laptop on Amazon comes with an SSD, 8GB RAM and is cheaper_)
 
-I've watched reviews, researched prices, searched online stores, visited electronic stores and looked through olx.ph trying to find the best prices for laptops, they're all the same. You're better of buying one from America
+I've watched reviews, researched prices, searched online stores, visited electronic stores and looked through olx.ph for for a few months now. It's all the same, you're better of buying one from America if you value your money.
 
 _"Alright I'm convinced, but how am I supposed to have them shipped to me and how much is shipping going to cost?"_ I'm glad you asked because...
 
