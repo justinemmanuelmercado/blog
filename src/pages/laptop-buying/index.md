@@ -1,27 +1,11 @@
 ---
-title: Buying a laptop in the Philippines? Use Ebay or Amazon!
+title: Buying a laptop in the Philippines? Buy it from America instead!
 description: When is it right to ship a laptop from the US opposed to buying locally
 date: '2019-02-04'
 image: 'cover.jpg'
 active: 1
 ---
-
-When looking to purchase a new laptop, you'll be asking these 2 things a lot:
-
-1. What are the specs?
-2. How much will this cost me?
-
-I'm not going to explain what any of the computer jargon mean, you've can Google that, but what this post can hopefully show you is how you can get the best value out of your money when buying a laptop.
-
-### Pricing and specs suck in the Philippines
-
-I've done my due diligence, I've watched reviews, researched laptop prices, scoured the internet, visited electronic stores in malls and looked through olx.ph trying to find the best prices for laptops but I always end up with the same conclusion; You're better off buying in America. 
-
-I don't understand why most laptops I see can range from $200 to $600 more expensive compared to one you can buy from Ebay or Amazon. 
-
-Besides being more expensive most mall stores have laptops with, what I consider, less than ideal specs for a 2019 laptop. You'll see laptops specced out with 4 gigs of RAM, having only HDD storage, or worst of all only having both. 
-
-I think all tech savvy people can agree that those specs are not fit for computing today. To be fair though, **most** laptops can have their RAM and storage upgraded, given the extra effort, but this is unacceptable when those same laptops with better specs can be bought for cheaper on Amazon or Ebay. 
+When looking for a laptop, you've probably never considered using Amazon, Ebay or any other US based sellers. But that's a big mistake, not only are the options cheaper, they're also better. What this post aims to show is you can save thousands of pesos by buying abroad and hopefully how to take advantage of this by using services like [ShippingCart](https:www.shippingcart.com).
 
 ### Comparing prices
 
@@ -29,11 +13,9 @@ I think all tech savvy people can agree that those specs are not fit for computi
 
 _The prices in dollars are from Amazon and Ebay, and the prices in pesos are from Philippine stores._ 
 
-Those pictures were actually taken from my local SM. I've also visited other malls and you can expect to find prices close to the ones above.
+What the picture above shows is that not only are the prices in US stores cheaper by $200 - $600, the products also have better specs out of the box (_see the Philippine Acer Aspire with only 4GB of RAM and the HDD where as a cheaper laptop on Amazon comes with an SSD and 8GB of RAM_)
 
-Those American prices are only from quick searches, you can find even better deals if you look hard enough. 
-
-If you're considering buying secondhand, Ebay has better prices and better variety compared to local secondhand sites like OLX. You just have to be vigilant for the best prices though, some of the best deals get swooped up within hours of being posted on Ebay 
+I've watched reviews, researched prices, searched online stores, visited electronic stores and looked through olx.ph trying to find the best prices for laptops, they're all the same. You're better of buying one from America
 
 _"Alright I'm convinced, but how am I supposed to have them shipped to me and how much is shipping going to cost?"_ I'm glad you asked because...
 
