@@ -3,7 +3,7 @@ title: ShippingCart Buying Guide
 description: Why I think buying abroad and having it shipped is way better than buying in the country.
 date: '2019-02-06'
 image: 'cover.jpeg'
-active: 0
+active: 1
 ---
 
 If you're coming from my [laptop buying post](/laptop-buying) or just curious 
