@@ -1,10 +1,12 @@
 ---
 title: ShippingCart Buying Guide
 description: Why I think buying abroad and having it shipped is way better than buying in the country.
-date: '2019-01-22'
+date: '2019-02-06'
 image: 'cover.jpeg'
 active: 0
 ---
+
+If you're coming from my [laptop buying post](/laptop-buying) or just curious 
 
 If you're anything like me, you're probably always looking for a good deal. Buying second-hand, never buying anything at full price, doing research beforehand just to make sure you're getting the best deal and would walk a few more meters just because the grocery store over there has the same ice cream for 3 pesos cheaper. 
 
@@ -41,22 +43,6 @@ _You don't actually have to use ShippingCart there are other services available 
 2. Once on your account's page, look for  this address box at the upper left of the page ![Sample Address Box](addr.png "US Shipping address") 
    _This is where your warehouse is located and where all of your ordered products should be shipped to and instead of a black box you should see your US address and a phone number_
 3. Once you've got your address, it's time to order your laptop
-
-### Deciding on what to buy, and what to look for
-##### You can skip this part if you've already decided
-
-1. Well first you have to decide what you're going to use the laptop for, and if you actually need a laptop (building a PC can be cheaper if you don't really need the mobility)
-
-2. For any laptop you buy, I urge you to buy one with an SSD. The difference between using HDDs and SSDs is night and day, I cannot stress enough how big the difference is.
-
-3. Things you need to look out for
-    * Gaming: Get a laptop with a good GPU and decent processor. I highly recommend atleast a GTX 1050 to play most newer titles at low-medium settings while getting decent frames. As of writing this, Nvidia was about to release RTX 20XX graphics cards so watch out for those.
-    * Content Creation: For most light content creation you'd probably do fine with more recent devices, but for special content like video or 3D rendering make sure to get a fast (at least) quad core processor and a decent graphics card (Both of which are reserved for the higher end of laptops. Sometimes a good gaming laptop can also be a good content creation one)
-    * Light use/Office work/Programming: Most devices released within the past 3 - 2 years will get by running multiple browser tabs and multiple instances of Microsoft Office and Microsoft Excel running as long as you have at least 8 GB of RAM. If you really want a snappy experience, get one with an SSD. The best choice for this type of work are ultrabooks. Ultrabooks are just extremely light laptops focused on sacrificing processing and graphics for portability and battery life (at least 8 hours of regular use).
- 
-4. As for specific laptops, I can't really recommend a brand or model. There's tons of options and most of the time different brands will have a good line of products and a bad line of products, it's up to you to exercies your due diligence. If you need specific recommendations check Youtube, people post in-depth reviews of laptops on Youtube all the time.
-
-5. Once you find a laptop you want you'll probably want to search for "_Laptop Model_ problems" just to see the **possible** issues you **might** encounter. Keep in mind that most complaints are going to be from the small minority experiencing problems, and that 3/4ths of people who are not affected with their purchase will most likely not post at all. 
 
 ### Ordering your new laptop
 

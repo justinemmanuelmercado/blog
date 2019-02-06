@@ -5,7 +5,7 @@ date: '2019-02-04'
 image: 'cover.jpg'
 active: 1
 ---
-When looking for a laptop, you've probably never considered using Amazon, Ebay or any other US based sellers. But that's a big mistake, not only are the options cheaper, they're also better. What this post aims to show is you can save thousands of pesos by buying abroad and hopefully how to take advantage of this by using services like [ShippingCart](https:www.shippingcart.com).
+When looking for a laptop, you've probably never considered using Amazon, Ebay or any other US based sellers. But that's a big mistake, not only are the options cheaper, they're also better. What this post aims to show is you can save thousands of pesos by buying abroad and hopefully how to take advantage of this by using services like [ShippingCart](https://www.shippingcart.com).
 
 ### Comparing prices
 
@@ -21,7 +21,7 @@ _"Alright I'm convinced, but how am I supposed to have them shipped to me and ho
 
 ### Ordering is easy
 
-1. Make an account for services like [ShippingCart](https:www.shippingcart.com), [JohnnyAirPlus](https://johnnyairplus.com/), [Jinio](https://jinio.com.ph/), [My-ShoppingBox](https://my-shoppingbox.com/). 
+1. Make an account for services like [ShippingCart](https://www.shippingcart.com), [JohnnyAirPlus](https://johnnyairplus.com/), [Jinio](https://jinio.com.ph/), [My-ShoppingBox](https://my-shoppingbox.com/). 
 
 _I've personally only ever used ShippingCart so most of this will be based on my experience with their service but the others should be pretty similar_
 2. Order the product from your selected store and have it shipped to the US address provided
