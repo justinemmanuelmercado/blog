@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import Layout from '../components/layout'
 import Img from 'gatsby-image'
+import Layout from '../components/layout'
+import Metatags from '../components/Metatags';
 
 const resetMargin = {
   margin: `auto 0 0`
@@ -9,12 +10,20 @@ const resetMargin = {
 
 const IndexPage = (props) => {
   const postList = props.data.allMarkdownRemark;
+  const { title, description, siteUrl } = props.data.site.siteMetadata;
   return (
     <Layout>
+      <Metatags
+        title={title}
+        description={description}
+        thumbnail={siteUrl + props.data.placeholderImage.childImageSharp.fixed.src}
+        url={siteUrl}
+        pathname={props.location.pathname}
+      />
       {
         postList.edges.map(({ node }, i) => {
 
-          if(!node.frontmatter.active) {
+          if (!node.frontmatter.active) {
             return "";
           };
 
@@ -46,9 +55,9 @@ const IndexPage = (props) => {
                   marginBottom: `1.5rem`,
                   marginLeft: `1rem`
                 }}
-                className="post-list">
+                  className="post-list">
                   <div>
-                    <h2 style={{...resetMargin}}>{node.frontmatter.title}</h2>
+                    <h2 style={{ ...resetMargin }}>{node.frontmatter.title}</h2>
                     <small style={resetMargin}>{node.frontmatter.date}</small>
                   </div>
                 </div>
@@ -56,7 +65,7 @@ const IndexPage = (props) => {
               <div style={{
                 margin: `0.5rem 0`
               }}>{node.excerpt}
-              <Link to={node.fields.slug}>Read more</Link>
+                <Link to={node.fields.slug}>Read more</Link>
               </div>
             </div>
           )
@@ -70,6 +79,20 @@ export default IndexPage
 
 export const listQuery = graphql`
   query ListQuery {
+    placeholderImage: file(relativePath: { eq: "logo.png" }) {
+      childImageSharp {
+        fixed(width: 260, height: 240) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    site {
+      siteMetadata {
+        title
+        description
+        siteUrl
+      }
+    }
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }){
       edges {
         node {

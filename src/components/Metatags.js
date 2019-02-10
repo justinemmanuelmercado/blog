@@ -6,6 +6,10 @@ function Metatags(props) {
         <Helmet
             title={props.title}
             meta={[
+                {
+                    name: `google-site-verification`,
+                    content: `3ldZRMMmG1gjJQw6n9wmHqJBNJAb8wI7UmpqpaJ70d8`
+                },
                 { name: 'title', content: props.title },
 
                 { name: 'description', content: props.description },

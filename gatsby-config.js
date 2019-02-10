@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `localhost`,
+    siteUrl: `https://blog.ejmercado.com`,
     title: `EJ Mercado`,
     description: `EJ's Blog`,
     author: `ej@ejmercado`,
