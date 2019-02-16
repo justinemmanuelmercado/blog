@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from "../components/layout";
 import Img from 'gatsby-image';
+import { imageBoxShadow } from '../components/css';
 import Metatags from '../components/Metatags';
 import { graphql } from 'gatsby';
 
@@ -20,7 +21,9 @@ const BlogPost = (props) => {
                 pathname={props.location.pathname}
             />
             <div>
-                <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
+                <Img style={{
+                    ...imageBoxShadow
+                }} fluid={post.frontmatter.image.childImageSharp.fluid} />
                 <h1>{title}</h1>
                 <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import { imageBoxShadow } from '../components/css'
 import Layout from '../components/layout'
 import Metatags from '../components/Metatags';
 
@@ -46,7 +47,9 @@ const IndexPage = (props) => {
                   marginRight: `0.5rem`
                 }}>
 
-                  <Img fixed={node.frontmatter.image.childImageSharp.fixed} />
+                  <Img style={{
+                  ...imageBoxShadow
+                  }} fixed={node.frontmatter.image.childImageSharp.fixed} />
                 </div>
                 <div style={{
                   height: `auto`,

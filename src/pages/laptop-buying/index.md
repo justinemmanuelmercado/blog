@@ -2,7 +2,7 @@
 title: Buying a laptop in the Philippines? Buy it from America instead!
 description: When is it right to ship a laptop from the US opposed to buying locally
 date: '2019-02-04'
-image: 'cover.jpg'
+image: 'cover.png'
 active: 1
 ---
 When looking for a laptop, you've probably never considered using Amazon, Ebay or any other US based sellers. But that's a big mistake, not only are the options cheaper, they're also better. What this post aims to show is you can save thousands of pesos by buying abroad and hopefully how to take advantage of this by using services like [ShippingCart](https://www.shippingcart.com).
