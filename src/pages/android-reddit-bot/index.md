@@ -25,7 +25,7 @@ The bot is built mainly by using `Snoowrap` a JavaScript wrapper for the Reddit 
 
 I ended up with a structure like this.
 
-```
+```javascript
 const { CLIENT_ID: clientId,
     CLIENT_SECRET: clientSecret,
     REDDIT_USER: username,
