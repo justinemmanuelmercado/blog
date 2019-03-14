@@ -1,76 +1,99 @@
 ---
 title: ShippingCart Buying Guide
-description: Why I think buying abroad and having it shipped is way better than buying in the country.
+description: Complete guide to using ShippingCart to deliver your products from the US to your doorstep
 date: '2019-02-06'
 image: 'cover.jpeg'
 active: 0
 ---
 
-If you're coming from my [laptop buying post](/laptop-buying) or just curious 
+If you've ever wanted to buy things from the abroad but are intimidated by high shipping fees, customs tampering your packages, customs holding your package indefinitely or hate dealing with customs in general, ShippingCart might just be for you. Of course it's not a straight forward process and it could be intimidating at first, so if it's your first time read on as I detail what I did to order my products from eBay and have it shipped straight to my doorstep using ShippingCart.
 
-If you're anything like me, you're probably always looking for a good deal. Buying second-hand, never buying anything at full price, doing research beforehand just to make sure you're getting the best deal and would walk a few more meters just because the grocery store over there has the same ice cream for 3 pesos cheaper. 
+### My experiences
 
-When buying something as valuable as a laptop, doing the above could mean spending 10,000 pesos less than what you would have spent just going to your local mall and buying the first thing that catches your eye and budget.
+I've been using ShippingCart for over a year now and I've had them deliver over a dozen items by now on multiple occasions, with products worth $10 to up to $1000. The most I've had to pay was $150 to ship straight to my door and the longest I've had to wait was 10 days.
 
-In this post you'll see I've written several paragraphs explaining why I chose what I bought (a secondhand laptop I bought from eBay and shipped using [LBC's ShippingCart](https:www.shippingcart.com). 
+### What is ShippingCart
 
-### Here's why you should try this method.
+You can think of ShippingCart as your own private US Address. You buy products and have them delivered to the address given to you by ShippingCart and from there have them deliver it straight to you, no need to deal with customs or other fees besides shipping fees.
 
-1. You get the latest models, the better models (equipped with more RAM or an SSD instead of an HDD) and the better variety buying from [eBay](https://www.ebay.com) and [Amazon](https://www.amazon.com)
+### How do you order from the US?
 
-2. If buying secondhand or refurbished is your preferred option, nothing beats buying from [eBay](https://www.ebay.com) because, for one; you get more options by the sheer amount of sellers and users on ebay, and two they've got the [eBay money back guarantee](https://pages.ebay.com/ebay-money-back-guarantee/) which assures you that if you don't receive the product or if the product isn't as described, there's a big chance you'll get your money back at the cost of sending back the product though. Amazon also sells secondhand stuff but I much prefer prices on eBay.
+There are 6 steps all in all and I outline them later on in the post with screenshots.
 
-3. It gets delivered **straight** to your doorstep. No need to be hassled by customs or going to the post-office to pick up your package.
+1. Create your account with ShippingCart
+2. Select what you want to buy
+3. Purchase your item and have it shipped to your ShippingCart address
+4. Wait. When your package arrives at their warehouse, they will review the item and they will notify you when it's ready for shipping
+5. Once your package is accepted, you will need to declare the value of the product you ordered, for insurance I think, ShippingCart will calculate the cost to ship the product to the Philippines.
+6. Once calculated, you confirm which products you want shipped (if there are multiple products), proceed to the payment page, choose your preferred payment method, enter in your PHILIPPINE address if you have not done so before and in 5 to 10 days your product will arrive at your doorstep
+7. (OPTIONAL) This goes for most shipments you receive not only from ShippingCart. Document yourself OPENING the sealed package, in the case that your package is damaged or is missing a product, you have video evidence to you can use to prove your claim.
 
-4. It's way cheaper to buy on eBay and Amazon for the same, most of the time strictly better, product.
+### 1. Create your account with ShippingCart
 
-### Points to consider against this method
+So headover to [ShippingCart's home page](https:www.shippingcart.com) and click Sign Up
 
-1. Ordering the product to receiving the product usually takes around 2 weeks (1 week to get the product to your ShippingCart warehouse, another week to ship from the warehouse to your address). If you need the product ASAP, then by all means buy locally. 
+##### Insert screenshot here
 
-2. Warranties are a gray area. It would depend entirely on your seller to set the terms for your returns and even after settling that, you'll probably have to pay for shipping it back and then you're going to have to wait some more to get you replacement.
+Fill in your info and then login.
 
-3. Unlike Shopee or Lazada, as of writing this, on eBay you're going to need a credit card, a debit card or PayPal to pay for your purchases, ShippingCart only takes credit cards and PayPal, and  Amazon only takes debit cards and credit cards.
+##### Screenshot
 
-_Now with that out of the way, how do we actually use this magical method to get cheaper deals on laptops?_
+At the landing page when you login, you should see this part at the left side of the screen containing a US Address and a UK Address. Take note of this, because this is what you enter as your shipping information when buying from the US or UK store.
 
+##### Screenshot
 
-### Making a ShippingCart account
+### 2. Selecting what you want to buy
 
-_You don't actually have to use ShippingCart there are other services available I have no personal experience with (Like [JohnnyAirPlus](https://johnnyairplus.com/), [Jinio](https://jinio.com.ph/), [My-ShoppingBox](https://my-shoppingbox.com/)). It's just that I've only ever used ShippingCart and they have yet to mess up a delivery_
+My favorite shop is definitely eBay but I'm sure most US based shops will do. I buy almost everything that can be had for cheaper on eBay, [things like laptops](/laptop-buying), cellphones, and most electronics and also clothing brands I would not normally find here in the Philippines. 
 
-1. [Create your account](https://www.shippingcart.com/signup), pretty straightforward.
-2. Once on your account's page, look for  this address box at the upper left of the page ![Sample Address Box](addr.png "US Shipping address") 
-   _This is where your warehouse is located and where all of your ordered products should be shipped to and instead of a black box you should see your US address and a phone number_
-3. Once you've got your address, it's time to order your laptop
+##### Just a tip a credit card is the best payment method I can suggest you have before attempting this. Most stores accept PayPal or debit cards but there are some stores that only accept credit cards. Just make sure you're diligent with paying off your debts on time
 
-### Ordering your new laptop
+### 3. Purchase your item and have it shipped to your ShippingCart address
 
-For whatever laptop you end up choosing, you can't go wrong with either Amazon or eBay. EBay has the better second hand choices if you're okay with buying used, just make sure to check out the seller first, eBay shows the seller's score, percentage of positive reviews, and actual reviews from previous transactions. Amazon has the better prices for brand new though and better shipping times if you have Amazon Prime.
+This is pretty straightforward. Most websites have you fill up your address before or while checking out, some have you enter your address to be stored with your account. Make sure you enter the address given to you by ShippingCart. 
 
-So put in an order for your laptop, pay for it and then have it delivered to your ShippingCart warehouse (don't worry if the shipping indicates "requires signature" this just means that someone has to be at the location to pickup the package, and the warehouse will always have people to receive the package) and wait for it to arrive. Depending on where you bought it this could take anywhere from 2 - 7 days.
+##### Take note though that the shipping fee you pay here is separate from the shipping fee charged by ShippingCart 
 
-Once your package arrives at the warehouse you'll receive an email saying that they have accepted your package and that it'll be processed before it appears in your shipping cart. This is where your package will be opened up, weighed, and reviewed.
+### 4. Wait. When your package arrives at their warehouse, they will review the item and they will notify you when it's ready for shipping
 
-### Package is ready for shipping
+This usually takes time, depending on where you shop it can take 2 - 7 days before your item gets to the US address. Most stores will provide a tracking number so find out what shipping company the store used get your tracking number and track your package's status there.
 
-Once they're done processing your package, they'll send you an email and it should appear in your cart page.
+When your item finally arrives you're going to receive an email like this
 
-![ShippingCart Cart Page](cart.png "ShippingCart, Cart Page") _This is what is would look like if your cart is empty_
+##### Screenshot
 
-Once there you're going to have to input the package value (for insurance purposes and items below $500 have free insurance and items over $500 will increase your shipping fee depending on how much the product is worth) The page should load for a bit, after that you can click the checkbox to calculate how much shipping will cost, unfortunately once it's in the warehouse there's nothing you can do to affect the shipping price. 
+That means that they're reviewing your package and measuring it for pricing.
 
-From all the things I've bought, only one product costed over $100 to ship. A laptop that was, unfortunately by fault of the US courier, shipped with a box almost three times it's size and filled with filler paper to help cushion the laptop, though I appreciate the care they took in handling the laptop, it greatly bloated the actual shipping fee. Most other shipments (even two other laptops) costed about $20 - $80. Shipping multiple items together can save you some money compared to shipping the products one at a time and storing your products in the warehouse is free up to 30 days, a storage fee will be added 31 days - 90 days, and they'll dispose of your item after 90 days. 
+### 5. Once your package is accepted, you will need to declare the value of the product you ordered, for insurance I think, ShippingCart will calculate the cost to ship the product to the Philippines.
 
-### Shipping your product
+After a day or two you will receive another email stating that your product has been accepted and is ready to be shipped. When you receive that, you can login to your ShippingCart account and click this Shipments tab
 
-Once you've finalized the items you want to ship, you can ship the products by clicking the ship button. You'll then be asked to fill in your address, and payment information. Fill in your payment information (PayPal or Credit Card) and then enter your **Philippine address**, once you've made sure it's all correct you can input add a promo code if for some reason you have one and click the final pay button.
+##### Screenshot
 
-Your payment will be processed and you should be redirected to a thank you page. Once your payment has been accepted they will send you an email and by then you can check track your package by heading over to the shipments tab
+You should see your shipment and some pictures of your item. You can enter the cost of the item here and you should see on the right side the cost of getting your product shipped to the Philippines. That is all you have to pay, I've never had any hidden fees.
 
-![Shipments Page](shipment.png "Shipments Page") _Here you'll see your package information. This is also the page where you can track shipments_
+##### Screenshot
 
-When you see your package on the shipments page with a status of "On it's way" all that's left to do is to wait. Shipments usually arrive in 5 - 7 days and I've never had any problems for the 12 packages I've had delivered (fortunately) so I don't exactly have prior experience with their customer support. I've tried asking a question though through their little automated chat bubble thing and it's a bit useless. You should probably contact their customer support at [customercare@shippingcart.com](customercare@shippingcart.com) if you want human interaction.
+###### Tip: If you're planning to buy multiple items worth less than $500, it's best to have them all shipped at the same time, you save about $10 per item if you ship them together compared to shipping them separately. This doesn't apply to items worth over $500, in my experience items over $500 inflate the price you're going to pay so it's best you have those high value items shipped alone.
 
+### 6. Once calculated, you confirm which products you want shipped (if there are multiple products), proceed to the payment page, choose your preferred payment method, enter in your PHILIPPINE address, and in 5 to 10 days your product will arrive at your doorstep
+
+Once the cost is calculated and you're sure you have all the items you want to be shipped, click proceed to payment
+
+###### Screenshot
+
+You should then be redirected to the payment page which looks like this. Choose your desired payment method (Credit Card or PayPal only as far as I know) add your Philippine address if you haven't done so before and then click "Pay & Ship".
+
+After that you will receive an email stating that your payment is being processed. If it fails, your products will be placed back to the Shipments page as pending shipment and you'll have to go through the process of paying again. If the payment is successful they will send you an email saying that your shipment is on it's way with an estimated date of arrival, usually 10 days after payment. In my experience most shipments take 5 - 7 days to arrive.
+
+### 7. (OPTIONAL) This goes for most shipments you receive not only from ShippingCart. Document yourself OPENING the sealed package, in the case that your package is damaged or is missing a product, you have video evidence to you can use to prove your claim.
+
+After 5 to 10 days of waiting, there should be an LBC delivery guy knocking at your door waiting for you (or a different representative) to sign for your package. I am lucky that after a dozen shipments I have never had a lost or damaged item but it's good to always be safe. So what I do is set up a video camera infront of me opening the SEALED package. In case an item is visibly damaged or an item is missing I can report it to LBC or ShippingCart with my proof.
+
+### Final Thoughts
+
+This all started late 2017 when I needed a laptop but was unsatisfied with the prices here in the Philippines. I calculated the price of buying the laptop and having it shipped to the Philippines and it equaled to me saving about $200 compared to buying it here in the Philippines. Since then I've bought various items from eBay and have always been satisfied with the service I receive. 
+
+There are just so many items  available in sites like eBay or Amazon that just aren't available here locally. I made this in the hopes of helping out someone else intimidated by buying from abroad. 
 
 _Disclaimer: Use of information at own risk. I assume no responsibility in you getting scammed or getting a defective product. It is **YOUR** responsibility to evaluate whether the product or products you are buying are functional and as advertised. There is always a chance of buying a defective product or wanting to return your order no matter what you buy. The blog aims to outline my personal experiences and my personal takeaways from my experiences_
