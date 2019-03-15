@@ -4,7 +4,7 @@ description: I tried dual booting then WSL then back to dual booting
 date: "2019-02-17"
 thumb: cover.png
 cover: cover.png
-active: 1
+active: 0
 ---
 
 #### change cover picture
