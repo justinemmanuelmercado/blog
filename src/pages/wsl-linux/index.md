@@ -16,7 +16,7 @@ For the whole 4 years of college and about 1 year in my first job I was making w
 
 It was when I wanted to try actually deploying a website did I start to take an interest in Linux, mainly Ubuntu. I always read about experienced web developers always suggesting that to host your site, you could use DigitalOcean or Linode or any other VPS provider, saying things like it's the most flexible and a definite upgrade to your web dev skills, with the caveat that it would take a bit more time to learn compared to shared hosting.
 
-With that in mind, I thought that before I wasted $5 - $10/month buying a VPS (I was dirt poor at the time), I decided that I'd atleast learn Ubuntu first to get an idea of what I was getting into. So I took the plunge and installed Ubuntu on my laptop. 
+With that in mind, I thought that before I wasted $5 - $10 a month buying a VPS (I was dirt poor at the time), I decided that I'd atleast learn Ubuntu first to get an idea of what I was getting into. So I took the plunge and installed Ubuntu on my laptop. 
 
 ## Post-Linux
 
