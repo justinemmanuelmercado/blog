@@ -1,9 +1,10 @@
 ---
 title: ShippingCart Buying Guide
 description: Complete guide to using ShippingCart to deliver your products from the US to your doorstep
-date: '2019-02-06'
-image: 'cover.jpeg'
-active: 0
+date: '2019-03-15'
+cover: 'cover.png'
+thumb: 'thumb.png'
+active: 1
 ---
 
 If you've ever wanted to buy things from the abroad but are intimidated by high shipping fees, customs tampering your packages, customs holding your package indefinitely or hate dealing with customs in general, ShippingCart might just be for you. Of course it's not a straight forward process and it could be intimidating at first, so if it's your first time read on as I detail what I did to order my products from eBay and have it shipped straight to my doorstep using ShippingCart.
@@ -40,7 +41,7 @@ Fill in your info and then login.
 
 At the landing page when you login, you should see this part at the left side of the screen containing a US Address and a UK Address. Take note of this, because this is what you enter as your shipping information when buying from the US or UK store.
 
-##### Screenshot
+![US Shipping Address](addr.png "US Shipping Address")
 
 ### 2. Selecting what you want to buy
 

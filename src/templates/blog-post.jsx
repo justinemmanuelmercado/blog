@@ -9,7 +9,7 @@ const BlogPost = (props) => {
     const post = props.data.markdownRemark;
     const url = props.data.site.siteMetadata.siteUrl;
     const { description, title } = post.frontmatter;
-    const thumbnail = post.frontmatter.image.childImageSharp.resize.src;
+    const thumbnail = post.frontmatter.cover.childImageSharp.resize.src;
 
     return (
         <Layout>
@@ -23,7 +23,7 @@ const BlogPost = (props) => {
             <div>
                 <Img style={{
                     ...imageBoxShadow
-                }} fluid={post.frontmatter.image.childImageSharp.fluid} />
+                }} fluid={post.frontmatter.cover.childImageSharp.fluid} />
                 <h1>{title}</h1>
                 <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
             </div>
@@ -41,12 +41,12 @@ export const query = graphql`
             frontmatter {
                 title
                 description
-                image {
+                cover {
                     childImageSharp {
                         resize(width: 500, height: 500) {
                             src
                         }
-                        fluid(maxWidth: 1024, maxHeight: 400){
+                        fluid(maxWidth: 1920, maxHeight: 750){
                             ...GatsbyImageSharpFluid
                         }
                     }

@@ -2,7 +2,8 @@
 title: "Running a Reddit Bot on an old Android Phone"
 description: How I repurposed my old Android Phone to run a Reddit Bot 24/7
 date: "2019-02-09"
-image: cover.png
+cover: 'cover.png'
+thumb: 'thumb.png'
 active: 1
 ---
 This is just to outline my experience building a reddit bot using Node JS

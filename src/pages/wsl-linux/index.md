@@ -2,7 +2,8 @@
 title: "Web development on Windows, to Dual Booting Linux, to WSL and then back to Dual Booting Linux"
 description: I tried dual booting then WSL then back to dual booting
 date: "2019-02-17"
-image: cover.png
+thumb: cover.png
+cover: cover.png
 active: 1
 ---
 

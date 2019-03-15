@@ -49,7 +49,7 @@ const IndexPage = (props) => {
 
                   <Img style={{
                   ...imageBoxShadow
-                  }} fixed={node.frontmatter.image.childImageSharp.fixed} />
+                  }} fixed={node.frontmatter.thumb.childImageSharp.fixed} />
                 </div>
                 <div style={{
                   height: `auto`,
@@ -108,7 +108,7 @@ export const listQuery = graphql`
             date(formatString: "MMMM Do YYYY")
             title
             description
-            image {
+            thumb {
               childImageSharp {
                   fixed(width: 195, height: 135){
                       ...GatsbyImageSharpFixed
