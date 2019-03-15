@@ -11,24 +11,24 @@ If you've ever wanted to buy things from abroad but are intimidated by high ship
 
 ### What is ShippingCart
 
-You can think of ShippingCart as your own private US Address. You buy products and have them delivered to ShippingCart's address (referred to as the warehouse from now on) and then have you package delivered straight to you, no need to deal with customs or other fees besides shipping.
+You can think of ShippingCart as your own private US Address. You buy products and have them delivered to ShippingCart's address (referred to as the warehouse from now on) and then have your package delivered straight to you, no need to deal with customs or other fees besides shipping.
 
 ### My experience
 
-I've been using ShippingCart for over a year now and I've had them deliver over a dozen items by now on multiple occasions, with products worth $10 to up to $1000.
+I've been using ShippingCart for over a year now and I've already had them deliver over a dozen items on multiple occasions, with products worth $10 up to $1000.
 
 ### How do you order from the US?
 
-1. Create your account with ShippingCart
-2. Purchase your item and have it shipped to the warehouse
+1. Create your ShippingCart account
+2. Purchase your items and have it shipped to the warehouse
 3. Wait for the package to arrive at the the warehouse
 4. Review the items and declare their value.
 5. Choose your preferred payment method, and choose or enter your PHILIPPINE address.
 6. (OPTIONAL) Document opening of your sealed package for proof in case of returns or defects.
 
-### 1. Create your account with ShippingCart
+### 1. Create your ShippingCart account
 
-So headover to [ShippingCart's home page](https:www.shippingcart.com) and click Sign Up or head to their [Sign Up page](https://www.shippingcart.com/signup) Fill in your info and then login.
+So head over to [ShippingCart's home page](https:www.shippingcart.com) and click Sign Up or head to their [Sign Up page](https://www.shippingcart.com/signup) Fill in your info and then login.
 
 ![Signup Page](signup.png "Signup Page")
 
@@ -36,18 +36,18 @@ At the landing page when you login, you should see this part at the left side of
 
 ![US Shipping Address](addr.png "US Shipping Address")
 
-### 2. Purchase your item and have it shipped to your ShippingCart address
+### 2. Purchase your items and have it shipped to the warehouse
 
 Notable stores include Amazon and eBay. I buy almost everything that can be had for cheaper on eBay, [things like laptops](/laptop-buying), cellphones, and most electronics and also clothing brands I would not normally find here in the Philippines. 
 
 This is pretty straightforward. Most websites have you fill up your address before or while checking out, some have you enter your address to be stored with your account. Make sure you enter the address given to you by ShippingCart. 
 
 
-##### _Just a tip a credit card is the best payment method I can suggest you have before attempting this. Most stores accept PayPal or debit cards but there are some stores that only accept credit cards. Just make sure you're diligent with paying off your debts on time_
+##### _Tip: A credit card is the best payment method I can suggest you have before attempting this. Most stores accept PayPal or debit cards but there are some stores that only accept credit cards. Just make sure you're diligent with paying off your debts on time_
 
 ### 3. Wait for the package to arrive at the the warehouse
 
-This will take time, it will usually take 2 - 7 days before your item arrives at the warehouse. Most stores will provide a tracking number so find out what shipping company the store used, get your tracking number and track your package there.
+This will take time, it will usually take 2 - 7 days before your item arrives at the warehouse. Most stores will provide a tracking number so find out what shipping company the store used, get your tracking number and track your package on their website.
 
 When your item finally arrives you're going to receive an email saying that your product has been accepted to the warehouse
 
@@ -73,7 +73,9 @@ You should then be redirected to the payment page which looks like this. Choose 
 
 ![Payment page](payment.png "Payment page")
 
-After that you will receive an email stating that your payment is being processed. If it fails, your products will be placed back to the Shipments page as pending shipment and you'll have to go through the process of paying again. If the payment is successful they will send you an email stating that your shipment is preparing for shipment and then eventually after a few hours to 2 days ShippingCart will send another email informing you that the shipment is on it's way with an estimated date of arrival. In my experience most shipments take 5 - 7 days to arrive.
+After that you will receive an email stating that your payment is being processed. If it fails, your products will be placed back to the Shipments page as pending shipment and you'll have to go through the process of paying again. 
+
+If the payment is successful they will send you an email stating that your shipment is preparing for shipment and then eventually after a few hours to 2 days ShippingCart will send another email informing you that the shipment is on it's way with an estimated date of arrival. In my experience most shipments take 5 - 7 days to arrive.
 
 From there you can track your shipment on your "Shipments" page.
 
