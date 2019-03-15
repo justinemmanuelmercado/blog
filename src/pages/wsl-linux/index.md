@@ -1,5 +1,5 @@
 ---
-title: "Why I went from dual booting to pure Windows + WSL back to dual booting"
+title: "Web development on Windows, to Dual Booting Linux, to WSL and then back to Dual Booting Linux"
 description: I tried dual booting then WSL then back to dual booting
 date: "2019-02-17"
 image: cover.png
@@ -8,23 +8,15 @@ active: 1
 
 #### change cover picture
 
-## Pre-Linux
+## The times I made websites on Windows
 
-For the past 4 years, I've been working as a web developer. At my first job used Windows machines, using Sublime Text and pushing changes using Source Tree. I like to call this my Pre-Unix era, before I saw the light that is "Web Development on a Unix based machine". I used PHP and Javascript, and for a time my main test environment was the WAMP software, where you installed a .exe file and modifying conf files done through WAMP. 
+For most of my life I've been using Windows as my main OS of choice. I've sort of gotten used to it and it was only 3 years ago did I actually switch to using Linux as my main work OS.
 
-At the time I didn't actually undertand how PHP worked or how the whole AMP stack worked. All I know was to put in .php files in the www folder and we're golden.
+For the whole 4 years of college and about 1 year in my first job I was making websites only on Windows machines with WAMP, Sublime Text and Visual Studio IDE. At the time I didn't know that I was handicapping myself by sticking to Windows.
 
-At the time, I was fine with how things worked. I was happy as long as I was somewhere I actually got to practice development. I ran into problems I couldn't quite fix but with a workaround here another workaround there, and sometimes when I needed to use a library I would download the libraries whole build folder and "require" everywhere because composer was a foreign topic to me.
+It was when I wanted to try actually deploying a website did I start to take an interest in Linux, mainly Ubuntu. I always read about experienced web developers always suggesting that to host your site, you could use DigitalOcean or Linode or any other VPS provider, saying things like it's the most flexible and a definite upgrade to your web dev skills, with the caveat that it would take a bit more time to learn compared to shared hosting.
 
-Eventually I had to deploy my first PHP project (The client could only afford a lone junior developer at that time, me, which was really not the best way to build a website looking back now) I was given shared cPanel hosting, filezilla access an extremely outdated PHP server. 
-
-I started running into problems just trying to get the website run, libraries didn't work, and errors were everywhere since I didn't configure PHP to suppress errors, I didn't configure PHP at all actually. The client was not happy, the launch was delayed, I was pullng all nighters trying to fix problems that led to other problems that led to bigger underlying problems.
-
-Eventually things started working when I asked the hosting site tot update it's PHP, and things were working fine. A few problems with PHP were fixed by editing the .ini file (which this was the first time I have ever touched). But eventually the client wanted changes.
-
-Because I was limited to only filezilla and cPanel whenever a change happened I had to manually upload files to the server and sometimes when I lose track of all the changes I did I actually zipped the whole thing (about 700 mb in size thanks to the libraries) and uploaded it to a different folder with the folder name as the only version control (I did use git but only because I was required to, I had absolutely zero clue how to actually use it, and I really didn't use the SourceTree GUI that much)
-
-This went on for another few months or so, and eventually the project finished with a garbage dump for code. It worked but I wasn't proud of it.
+With that in mind, I thought that before I wasted $5 - $10/month buying a VPS (I was dirt poor at the time), I decided that I'd atleast learn Ubuntu first to get an idea of what I was getting into. So I took the plunge and installed Ubuntu on my laptop. 
 
 ## Post-Linux
 
@@ -41,6 +33,8 @@ Where Ubuntu gives you the whole cake right out of the box, Arch Linux gives you
 Arch Linux was great and for the time I actually didn't mind that if I wanted most of the basic functionality to work I had to work for it. This experience had given me the intuition needed to work with basic debugging of most of the problems I would eventually experience while on Linux
 
 ## Web Development on Linux
+
+Web development
 
 ## Dual Booting
 
@@ -69,3 +63,12 @@ After about 2 months with this setup the problems become more and more apparent,
 3. The command line is sluggish compared to running native Linux. Like whenever opening a new terminal instance works, it'll usually take a few seconds before showing anything, compared to opening a new command line on Ubuntu where it's instant. Also printing things out take painfully slow, things will usually take noticeably slower to print out each line compared to printing out the whole thing instantly like on Linux
 4. I couldn't get Docker to work on WSL.
 5. I missed working with a tiling windows manager like [i3](https://i3wm.org/)
+
+And with that, I bought a bigger SSD and went back to Dual Booting
+
+## Comfortable with just dual booting -- for now
+
+I reinstalled Ubuntu this time and have barely touched WSL since then. Currently don't have any problems witht this setup though and I feel much better working on Ubuntu than I did with WSL
+
+Honestly I really wanted to see WSL be the "one". But it just wasn't polished enough. Maybe in the near future, I'd give WSL another chance and by then it has improved more than it's current state. Hopefully to be just as snappy to using BASH on Ubuntu
+
