@@ -110,7 +110,7 @@ export const listQuery = graphql`
             description
             thumb {
               childImageSharp {
-                  fixed(width: 195, height: 135){
+                  fixed(width: 384, height: 150){
                       ...GatsbyImageSharpFixed
                   }
               }
