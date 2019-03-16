@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
-
 import Header from './header'
 import './layout.css'
 
@@ -38,20 +37,14 @@ const Layout = ({ children }) => (
             </div>
             <footer
               style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                backgroundColor: "#333",
-                color: "#fff",
-                position: "absolute",
+                margin: '0 auto',
                 bottom: "0",
-                width: "100%",
-                height: "2.5rem",
+                width: "90%",
+                height: "3rem",
               }}
             >
               <span>© {new Date().getFullYear()}, <a
                 style={{
-                  color: "#fff",
                   textDecoration: "none"
                 }}
                 href="mailto:ej@ejmercado.com">ej@ejmercado.com</a></span>

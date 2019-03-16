@@ -21,11 +21,24 @@ const BlogPost = (props) => {
                 pathname={props.location.pathname}
             />
             <div>
-                <Img style={{
-                    ...imageBoxShadow
-                }} fluid={post.frontmatter.cover.childImageSharp.fluid} />
-                <h1>{title}</h1>
-                <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+                <Img
+                    style={{
+                        width: "100vw",
+                        zIndex: "-1",
+                        position: "absolute",
+                        top: 114,
+                        left: 0,
+                        maskImage: "linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0))"
+                    }}
+                    fluid={post.frontmatter.cover.childImageSharp.fluid} />
+                <div style={{
+                    ...imageBoxShadow,
+                    padding: "0.5em 2em",
+                    backgroundColor: "#fcfcfc",
+                }}>
+                    <h1>{title}</h1>
+                    <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+                </div>
             </div>
         </Layout>
     )
