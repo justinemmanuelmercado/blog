@@ -23,12 +23,12 @@ const BlogPost = (props) => {
             <div>
                 <Img
                     style={{
-                        width: "100vw",
+                        width: "100%",
                         zIndex: "-1",
                         position: "absolute",
                         top: 114,
                         left: 0,
-                        maskImage: "linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0))"
+                        maskImage: "linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,255,255,0.01))"
                     }}
                     fluid={post.frontmatter.cover.childImageSharp.fluid} />
                 <div style={{

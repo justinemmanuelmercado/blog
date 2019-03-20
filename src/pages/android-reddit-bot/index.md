@@ -79,8 +79,33 @@ I pushed the latest changes to git, pulled it onto the phone and set up the envi
 
 It worked.
 
+#### Update: March 16, 2019
+I have since updated the software from notifying through email to using a Push notification API from PushBullet. Notify code now looks like this
+
+```javascript
+
+notify: async (title, body, url) => {
+    await axios.post(`${pbBase}/v2/pushes`,
+        {
+            "body": body,
+            "title": title,
+            "type": "link",
+            "url": url,
+            "sender_iden": iden
+        },
+        {
+            headers: {
+                "Access-Token": key
+            }
+        });
+}
+
+```
+
+Which is a lot simpler and a lot less intrusive than emailing me every few hours
+
 ## Conclusion
 
-Now I get emails every few hours, and to think I would've missed most of those if I didn't build this. 
+Now I get notifications every few hours, and to think I would've missed most of those if I didn't build this. 
 
 It was a decent learning experience and it's a good way to breath some life into an old Android phone. I'm probably going run more on my Android device since Termux supports running multiple instances. Also probably going to move from emails to a sort of push notification. 
