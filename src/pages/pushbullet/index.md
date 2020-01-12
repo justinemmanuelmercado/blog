@@ -4,7 +4,7 @@ description: My old Reddit bot used notifications to notify me, now I switched t
 date: "2019-03-18"
 thumb: cover.png
 cover: cover.png
-active: 1
+active: 0
 ---
 
 #### change cover picture

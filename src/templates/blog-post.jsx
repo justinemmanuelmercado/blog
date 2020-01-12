@@ -33,7 +33,7 @@ const BlogPost = (props) => {
                     fluid={post.frontmatter.cover.childImageSharp.fluid} />
                 <div style={{
                     ...imageBoxShadow,
-                    padding: "0.5em 2em",
+                    padding: "2em",
                     backgroundColor: "#fcfcfc",
                 }}>
                     <h1>{title}</h1>
