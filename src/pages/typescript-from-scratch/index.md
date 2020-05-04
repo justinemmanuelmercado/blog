@@ -1,82 +1,126 @@
 ---
-title: "Moving from email to Pushbullet for notifications"
-description: My old Reddit bot used notifications to notify me, now I switched to Pushbullet and here's how I did it
+title: "Starting a typescript project from scratch"
+description: How I start a typescript project
 date: "2020-05-04"
 thumb: cover.png
 cover: cover.png
 active: 1
 ---
 
-#### change cover picture
+*This was written as a personal guide. This is by no means the only way to start a typescript project, but this is how I usually do it.*
 
-In my [previous post](/android-reddit-bot) I made a Reddit bot that notifies me through email when a certain post is contains a certain text in certain subreddits. I use it mostly to chime in where I can help and promote my blog post, but I can think of a few more uses where this is useful i.e. get notified when a job you want gets posted or when someone posts a freebie you're interested in.
+[Link to repo with the finished product](https://github.com/justinemmanuelmercado/typescript-from-scratch)
 
-I was using email and it worked okay for the most part. I was being notified on time and I did get a notification which is the most important part. The downside is it's filling up my inbox and it doesn't look pretty. I knew before hand that I'd switch to something else for notifications and that's where [Pushbullet](https://www.pushbullet.com/about) comes in.
+## Prerequisite knowledge
+* npm
+* node
 
-## What's Pushbullet?
+## Initialize project
 
-In the about page of Pushbullet, it describes itself as a "bridge between your devices". So one notification from your Phone can be seen on your tablet/laptop and vice-versa. It can also be used to transfer files, share links and other stuff. 
+1. Create the directory
+2. Run `npm init` (fill in the questions or just spam enter)
+3. Run `npm i -D typescript ts-node nodemon`
 
-The share links part is what I'm most interested in, and their API allows your application to sort-of be a device on its own and share links to your devices (in my case share links to my phone).
+Adding `typescript` is self-explanatory
 
-## How's it working out for you?
+Adding [ts-node](https://www.npmjs.com/package/ts-node) is to run the app without rebuilding the project everytime
 
-Well it's definitely an improvement. I rarely get spammed with emails now, and a seemingly insignificant upside that is actually a big improvement comes from actually having the notification as a link itself, so if I click the notification I get redirected to the actual Reddit thread itself whereas in the previous iteration, I had to actually open the email and check out the link itself.
+Adding [nodemon](https://www.npmjs.com/package/nodemon) for automatically restarting the node application when file changes in the directory are detected
 
-Also since Pushbullet has a website, a desktop app and an Android app, I can access those notifications from all my devices just like with emails
+## Configure typescript
 
-## How to use Pushbullet?
-
-1. Well first create your Pushbullet account.
-2. Install the apps on the devices you want to get notified on.
-3. Create your access token, and if for example you have different notifications that you want grouped, you could create different devices for each group and give them different device names. From there you're going to use your device's  `iden`  which is basically an ID for the device sending the notification. You can get the device IDs by hitting this endpoint
-
-```bash
-
-curl --header 'Access-Token: <your_access_token_here>' \
-     https://api.pushbullet.com/v2/devices
-
-```
-
-#### Screenshot of the different devices
-
-4. Get the `iden` of the device you want to use and get your access token.
-5. Create the app. Basically any language that can send a `get` and `post` request will do. But since I wrote my bot in Node, I'll be using Node.
-
-## Actual code
-
-So I only ever want to share links and get notified, and luckily enough with a single `post` request to the `create-push` endpoint you can do that, no need to install any other libraries.
-
-[Documentation for `create-push`](https://docs.pushbullet.com/#create-push)
-
-My notification code. I used [Axios](https://github.com/axios/axios) for my HTTP requests. You can use `fetch` if you want, it's down to preference
-
-```javascript
-
-notify: async (title, body, url) => {
-    await axios.post(`${pbBase}/v2/pushes`,
-        {
-            "body": body,
-            "title": title,
-            "type": "link",
-            "url": url,
-            "sender_iden": iden
-        },
-        {
-            headers: {
-                "Access-Token": key
-            }
-        });
+1. Create the `tsconfig.json` files
+    * The easiest way to do this is with `npx tsc --init` for the default configuration 
+    > [npx](https://www.npmjs.com/package/npx) is a CLI tool that allows you to run `npm` packages without having to install them globally on your machine.
+2. In the `tsconfig.json` file, configure the `outDir` and `rootDir`
+    * `rootDir` is the directory of your `typescript` files, and `outDir` is the build directory
+    * My setup is usually typescript files in `src` output files in `lib`
+```json
+{
+    //...
+    "outDir": "lib",
+    "rootDir": "src",
+    //...
 }
-
 ```
 
-And that code runs everytime I want to get notified. My notifications now look something like this
+## Create the source files
 
-#### insert screenshot for axios messages here
+1. Create the source directory and add an `index.ts` file. You can have a different entry file just make sure to change it later in the [setting up development](#setting-up-development) section
+2. Write any valid typescript code in the `index.ts` file. For example
+```typescript
+const message: String = 'Hello World!'
+console.log(message)
+```
 
-## Final thoughts
+## Building the typescript files
 
-There are definitely more experiments I can think of doing with Pushbullet. Especially filesharing between my devices seems especially useful. 
+To actually get usable Javascript code, you're going to have to build the typescript files.
 
-That's all and I hope you got something from all of this!
+1. To manually build files you can run `npx tsc`. What this does is just take what's in your `tsconfig.json` which right now is just read whatever is in `src` and output it into `lib`.
+
+2. This can be automated with `npm`. Do this by adding the following line into your `package.json`  file
+
+```json
+  "scripts": {
+  // ...
+  "build": "rm -rf lib && tsc",
+  },
+```
+
+## Setting up development
+
+For development, we're going to use a combination of `nodemon` and `ts-node` to watch for file changes and to run the app without rebuilding.
+
+1. Add the following lines in your `package.json` file
+
+```json
+"scripts": {
+    "start": "nodemon -e ts -w ./src -x npm run watch:serve",
+    "watch:serve": "node -r ts-node/register src/index.ts",
+  }
+```
+
+* `npm run start`: What this script does is just tell `nodemon` to watch for file changes in `./src` and run `npm run watch:serve` each time
+
+* `npm run watch:serve`: This just tells node to run `src/index.ts` and run it through `ts-node`
+
+## OPTIONAL: Setting up eslint with development
+
+> [Linting is the process of running a program that will analyse code for potential errors](https://stackoverflow.com/questions/8503559/what-is-linting)
+
+Linting isn't required but it's definitely useful and easy to set up. For this guide we'll just use `eslint`'s built in setup wizard
+
+1. Run `npm install -D eslint` to install eslint
+2. Run `npx eslint --init` to setup the `.eslintrc.js`
+3. The `eslint` wizard will ask you questions, feel free to answer them however you like but here's how I usually setup mine. The set up below uses `airbnb`'s lint rules. It automatically installs the `typescript` plugin for `eslint` if you specify the project uses typescript`
+
+```
+? How would you like to use ESLint? To check syntax, find problems, and enforce code sty
+le
+? What type of modules does your project use? JavaScript modules (import/export)
+? Which framework does your project use? None of these
+? Does your project use TypeScript? Yes
+? Where does your code run? Node
+? How would you like to define a style for your project? Use a popular style guide
+? Which style guide do you want to follow? Airbnb: https://github.com/airbnb/javascript
+? What format do you want your config file to be in? JavaScript
+? Would you like to install them now with npm? Yes
+```
+
+Now `eslint` is set up and to manually lint your whole project you can run `npx eslint 'src/**'`, the rules will depend on what's in your `.eslintrc.js` so [definitely do your research to manually tune your eslint rules](https://eslint.org/docs/rules/)
+
+4. To automate this you can add an `npm run lint` script
+
+```json
+"lint": "eslint 'src/**'"
+```
+5. We can also integrate this into the `npm start` script and have it run each time `nodemon` reruns the code
+
+```json
+"watch:serve": "npm run lint && node -r ts-node/register src/index.ts"
+```
+What'll happen here is that everytime `nodemon` detects a code change, it runs lint first, and if `eslint` finds an error it outputs it in the command line and stops the code from running until you fix iteration
+## Conclusion
+
+This is how I'd normally start a `typescript` project. From here you can set up almost anything. This was purposefully set up to be what I'd consider the bare minimum to allow for flexibility.
