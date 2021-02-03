@@ -77,7 +77,9 @@ Ever since I stumbled upon Tailwind late last year, I've been using it for almos
 
 It has a bit of a learning curve but I find myself working faster with it. I feel like I'm more in control and that's how I prefer working with CSS.
 
-Some features I find notable are built-in PurgeCSS, and powerful configurability. 
+The biggest impact Tailwind had was changing the way I think with design systems. I used to have distinct classes that had varying values between other classes. Now I can be sure that if I wanted to space an element with the 2nd biggest margin value available, it'll be consistent throughout the site. This isn't Tailwind exclusive, but using it showed significance design systems can be on the overall look of the site.
+
+Some features I also find notable are built-in PurgeCSS, and powerful configurability. 
 
 ## What are my thoughts
 
