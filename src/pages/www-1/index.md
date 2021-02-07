@@ -63,7 +63,7 @@ It is what I am using for this site you're reading it on (as of February 2021).
 
 The past few months, I wanted a blog redesign. Unfortunately, my blog is not high on my list of priorities. I decided to use something someone else made, since I didn't have the time to design my own. 
 
-Classless CSS libraries checked the important criteria in my search: readability, aesthetics and ease of use. Water.css was my favorite out of the bunch. Simple, looked nice, and applying it to the site took only replacing all my custom CSS with a single minified file.
+[Classless CSS](https://github.com/dbohdan/classless-css) libraries checked the most important criteria: easy to use. Out of all the other flavors, Water.css looked the best (in my opinion). It was clean, simple and the colors looked nice. My favorite part is applying it to the site took only replacing all my custom CSS with a single minified file.
 
 ## Links
 
